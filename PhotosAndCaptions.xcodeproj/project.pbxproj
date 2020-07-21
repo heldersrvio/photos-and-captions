@@ -13,6 +13,7 @@
 		9A434D1A24C5D5F900A52C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A434D1824C5D5F900A52C03 /* Main.storyboard */; };
 		9A434D1C24C5D5FC00A52C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A434D1B24C5D5FC00A52C03 /* Assets.xcassets */; };
 		9A434D1F24C5D5FC00A52C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A434D1D24C5D5FC00A52C03 /* LaunchScreen.storyboard */; };
+		9A434D2724C5D71400A52C03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A434D2624C5D71400A52C03 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9A434D1B24C5D5FC00A52C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A434D1E24C5D5FC00A52C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A434D2024C5D5FC00A52C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A434D2624C5D71400A52C03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9A434D1224C5D5F900A52C03 /* AppDelegate.swift */,
 				9A434D1424C5D5F900A52C03 /* SceneDelegate.swift */,
 				9A434D1624C5D5F900A52C03 /* ViewController.swift */,
+				9A434D2624C5D71400A52C03 /* DetailViewController.swift */,
 				9A434D1824C5D5F900A52C03 /* Main.storyboard */,
 				9A434D1B24C5D5FC00A52C03 /* Assets.xcassets */,
 				9A434D1D24C5D5FC00A52C03 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				9A434D1724C5D5F900A52C03 /* ViewController.swift in Sources */,
 				9A434D1324C5D5F900A52C03 /* AppDelegate.swift in Sources */,
 				9A434D1524C5D5F900A52C03 /* SceneDelegate.swift in Sources */,
+				9A434D2724C5D71400A52C03 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DV285NTM;
 				INFOPLIST_FILE = PhotosAndCaptions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DV285NTM;
 				INFOPLIST_FILE = PhotosAndCaptions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
